@@ -30,7 +30,13 @@ const HeroSection = () => {
         <HeroH1>Appliance Repair</HeroH1>
         <HeroP>Call for for a quote today!</HeroP>
         <HeroBtnWrapper>
-          <Button to="contact-us" onMouseEnter={onHover} onMouseLeave={onHover}>
+          <Button
+            to="contact-us"
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            primary="true"
+            dark="true"
+          >
             Click for Quote {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>

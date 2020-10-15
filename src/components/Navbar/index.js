@@ -18,7 +18,7 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">FairpriceAppliance</NavLogo>
+          <NavLogo to="home">FairpriceAppliance</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>

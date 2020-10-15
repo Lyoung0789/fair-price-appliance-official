@@ -1,5 +1,8 @@
 //We can name this index. if we are calling the folder, react automitacally looks for the index.js file.
 import React from "react";
+//changes the color of the icon in the navbar
+import { IconContext } from "react-icons/lib";
+import { animateScroll as scroll } from "react-scroll";
 import { FaBars } from "react-icons/fa";
 import {
   Nav,
@@ -14,33 +17,57 @@ import {
 } from "./NavbarElements";
 
 const Navbar = ({ toggle }) => {
+  //will use below only if i want a transparent navbar
+  // const [scrollNav, setScrollNav] = useState(false);
+
+  // const changeNav = () => {
+  //   if (window.scrollY > -1) {
+  //     setScrollNav(true);
+  //   } else {
+  //     setScrollNav(false);
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   window.addEventListener("scroll", changeNav);
+  // });
+
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <>
-      <Nav>
-        <NavbarContainer>
-          <NavLogo to="home">FairpriceAppliance</NavLogo>
-          <MobileIcon onClick={toggle}>
-            <FaBars />
-          </MobileIcon>
-          <NavMenu>
-            <NavItem>
-              <NavLinks to="about">About</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to="services">Services</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to="reviews">Reviews</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to="contact-us">Contact Us</NavLinks>
-            </NavItem>
-          </NavMenu>
-          <NavButton>
-            <NavButtonLink to="/contact-us">Contact Us</NavButtonLink>
-          </NavButton>
-        </NavbarContainer>
-      </Nav>
+      {/*only use this when you want a transparent navbar <Nav scrollNav={scrollNav} >*/}
+      <IconContext.Provider value={{ color: "#fff" }}>
+        <Nav>
+          <NavbarContainer>
+            <NavLogo to="/" onClick={toggleHome}>
+              FairpriceAppliance
+            </NavLogo>
+            <MobileIcon onClick={toggle}>
+              <FaBars />
+            </MobileIcon>
+            <NavMenu>
+              <NavItem>
+                <NavLinks to="about">About</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to="services">Services</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to="reviews">Reviews</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to="contact-us">Contact Us</NavLinks>
+              </NavItem>
+            </NavMenu>
+            <NavButton>
+              <NavButtonLink to="/contact-us">Contact Us</NavButtonLink>
+            </NavButton>
+          </NavbarContainer>
+        </Nav>
+      </IconContext.Provider>
     </>
   );
 };

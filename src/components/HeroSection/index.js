@@ -36,6 +36,11 @@ const HeroSection = () => {
             onMouseLeave={onHover}
             primary="true"
             dark="true"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
           >
             Click for Quote {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>

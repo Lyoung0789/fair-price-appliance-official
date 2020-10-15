@@ -6,7 +6,7 @@ export const Nav = styled.nav`
   // background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")}
   background: black;
   height: 80px;
-  margin-top -20px;
+  margin-top -80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +23,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 83px;
   z-index: 1;
   width: 100%;
   padding: 0 24px;

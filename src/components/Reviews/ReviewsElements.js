@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ReviewsContainer = styled.div`
-  height: 800px;
+  height: 860px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,22 +37,21 @@ export const ReviewsWrapper = styled.div`
 `;
 
 export const ReviewsCard = styled.div`
-
   background: #fff;
-  display: flex
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center; 
-  border-radius: 10px; 
-  max-height: 340px; 
-  padding: 30px; 
-  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-  transition all 0.2s ease-in-out;
+  align-items: center;
+  border-radius: 10px;
+  max-height: 340px;
+  padding: 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
 
-  &:hover{
-      transform: scale(1.02);
-      transition: all 0.2s ease-in-out;
-      cursor: pointer; 
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
   }
 `;
 
@@ -64,8 +63,8 @@ export const ReviewsIcon = styled.img`
 
 export const ReviewsH1 = styled.h1`
   font-size: 2.5rem;
-  color: #fff;
-  margin-auto: 64px;
+  color: white;
+  margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;

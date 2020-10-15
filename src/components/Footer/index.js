@@ -1,4 +1,13 @@
 import React from "react";
+import {
+  FooterContainer,
+  FooterWrap,
+  FooterLinksContainer,
+  FooterLinksWraper,
+  FooterLinkItems,
+  FooterLinkTitle,
+  FooterLink,
+} from "./FooterElements";
 
 function Footer() {
   return (
@@ -7,12 +16,30 @@ function Footer() {
         <FooterLinksContainer>
           <FooterLinksWraper>
             <FooterLinkItems>
-              <FooterLinkTitle>
-                <FooterLink to="/">About us</FooterLink>
-                <FooterLink to="/">Services </FooterLink>
-                <FooterLink to="/">About us</FooterLink>
-                <FooterLink to="/">About us</FooterLink>
-              </FooterLinkTitle>
+              <FooterLinkTitle>About Us</FooterLinkTitle>
+              <FooterLink to="/">Services </FooterLink>
+              <FooterLink to="/">Atest</FooterLink>
+              <FooterLink to="/">test</FooterLink>
+            </FooterLinkItems>
+            <FooterLinkItems>
+              <FooterLinkTitle>About Us</FooterLinkTitle>
+              <FooterLink to="/">Services </FooterLink>
+              <FooterLink to="/">Atest</FooterLink>
+              <FooterLink to="/">test</FooterLink>
+            </FooterLinkItems>
+          </FooterLinksWraper>
+          <FooterLinksWraper>
+            <FooterLinkItems>
+              <FooterLinkTitle>About Us</FooterLinkTitle>
+              <FooterLink to="/">Services </FooterLink>
+              <FooterLink to="/">Atest</FooterLink>
+              <FooterLink to="/">test</FooterLink>
+            </FooterLinkItems>
+            <FooterLinkItems>
+              <FooterLinkTitle>About Us</FooterLinkTitle>
+              <FooterLink to="/">Services </FooterLink>
+              <FooterLink to="/">Atest</FooterLink>
+              <FooterLink to="/">test</FooterLink>
             </FooterLinkItems>
           </FooterLinksWraper>
         </FooterLinksContainer>

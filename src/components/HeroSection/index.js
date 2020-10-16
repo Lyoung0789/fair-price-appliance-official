@@ -13,6 +13,7 @@ import {
 
 //find videos from https://www.pexels.com/
 import Video from "../../videos/video.mp4";
+// import Pic from "../../images/laundry.jpg";
 import { Button } from "../ButtonElement";
 
 const HeroSection = () => {

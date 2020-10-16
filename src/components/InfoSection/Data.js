@@ -10,7 +10,7 @@ export const homeObjOne = {
   // buttonLabel: "Get Quote",
   //imgStart switches the svg and the text
   imgStart: true,
-  img: require("../../images/svg-5.svg"),
+  img: require("../../images/family.svg"),
   alt: "Appliance",
   dark: true,
   primary: true,
@@ -29,7 +29,7 @@ export const homeObjTwo = {
   buttonLabel: "Contact Us",
   //imgStart switches the svg and the text
   imgStart: true,
-  img: require("../../images/svg-3.svg"),
+  img: require("../../images/shield.svg"),
   alt: "car",
   dark: false,
   primary: false,
@@ -48,7 +48,7 @@ export const homeObjThree = {
   buttonLabel: "Get Quote",
   //imgStart switches the svg and the text
   imgStart: false,
-  img: require("../../images/svg-2.svg"),
+  img: require("../../images/phone-call.svg"),
   alt: "Appliance",
   dark: false,
   primary: false,

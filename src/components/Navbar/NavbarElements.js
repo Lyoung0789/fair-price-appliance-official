@@ -4,7 +4,7 @@ import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
   // background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")}
-  background: black;
+  background: #12232E;
   height: 80px;
   margin-top -80px;
   display: flex;
@@ -17,6 +17,7 @@ export const Nav = styled.nav`
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
+    
   }
 `;
 
@@ -32,7 +33,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-  color: white;
+  color: #eefbfb;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -45,7 +46,6 @@ export const NavLogo = styled(LinkR)`
 
 export const MobileIcon = styled.div`
   display: none;
-
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
@@ -54,7 +54,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: white;
+    // color: red;
   }
 `;
 
@@ -74,7 +74,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-  color: white;
+  color: #eefbfb;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -83,7 +83,7 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #01bf71;
+    border-bottom: 3px solid ##eefbfb;
   }
 `;
 
@@ -97,10 +97,10 @@ export const NavButton = styled.nav`
 
 export const NavButtonLink = styled(LinkS)`
   border-radius: 50px; 
-  background: #01bf71;
+  background: #4DA8DA;
   white-space: nowrap;
   padding: 10px 22px; 
-  color: #010606;
+  color: #EEFBFB;
   font-size: 16px; 
   outline: none; 
   border: none; 
@@ -111,6 +111,6 @@ export const NavButtonLink = styled(LinkS)`
   &:hover{
       transition all 0.2s ease-in-out
       background: #fff;
-      color: #010606
+      color: #010606;
   }
 `;

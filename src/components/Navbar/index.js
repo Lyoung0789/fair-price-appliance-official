@@ -46,7 +46,7 @@ const Navbar = ({ toggle }) => {
               FairpriceAppliance
             </NavLogo>
             <MobileIcon onClick={toggle}>
-              <FaBars />
+              <FaBars style={{ color: "#eefbfb" }} />
             </MobileIcon>
             <NavMenu>
               <NavItem>

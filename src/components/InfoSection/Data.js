@@ -7,7 +7,7 @@ export const homeObjOne = {
   headLine: "Sub Contractor of LG",
   description:
     "Based in sunny Orlando Fl.  but services between winter park, kissimmee, and other places around here",
-  buttonLabel: "Get Quote",
+  // buttonLabel: "Get Quote",
   //imgStart switches the svg and the text
   imgStart: true,
   img: require("../../images/svg-5.svg"),

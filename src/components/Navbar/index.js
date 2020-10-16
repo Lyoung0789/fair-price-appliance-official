@@ -107,7 +107,7 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={-80}
               >
-                Contact Us
+                (407)-555-5555
               </NavButtonLink>
             </NavButton>
           </NavbarContainer>

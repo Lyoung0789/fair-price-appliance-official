@@ -43,7 +43,8 @@ export const homeObjThree = {
   lightTextDesc: false,
   topLine: "Contact Us",
   headLine: "Scheduling and Questions",
-  description: "(407)-555-5555\n9am - 5pm \nMonday thru Saturday ",
+  description:
+    "Hours of Operation:\n9am - 5pm \nMonday-Saturday\n(407)-555-5555 ",
   buttonLabel: "Get Quote",
   //imgStart switches the svg and the text
   imgStart: false,

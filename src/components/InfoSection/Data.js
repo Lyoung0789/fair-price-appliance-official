@@ -42,9 +42,8 @@ export const homeObjThree = {
   lightText: false,
   lightTextDesc: false,
   topLine: "Contact Us",
-  headLine: "Call me",
-  description:
-    "Based in sunny Orlando Fl.  but services between winter park, kissimmee, and other places around here",
+  headLine: "Scheduling and Questions",
+  description: "(407)-555-5555\n9am - 5pm \nMonday thru Saturday ",
   buttonLabel: "Get Quote",
   //imgStart switches the svg and the text
   imgStart: false,

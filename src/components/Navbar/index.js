@@ -39,14 +39,14 @@ const Navbar = ({ toggle }) => {
   return (
     <>
       {/*only use this when you want a transparent navbar <Nav scrollNav={scrollNav} >*/}
-      <IconContext.Provider value={{ color: "#fff" }}>
+      <IconContext.Provider value={{ color: "#007cc7" }}>
         <Nav>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
               FairpriceAppliance
             </NavLogo>
             <MobileIcon onClick={toggle}>
-              <FaBars style={{ color: "#eefbfb" }} />
+              <FaBars />
             </MobileIcon>
             <NavMenu>
               <NavItem>

@@ -80,6 +80,7 @@ export const Subtitle = styled.p`
   font-size: 18px;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
+  white-space: pre-wrap;
 `;
 
 export const BtnWrap = styled.div`

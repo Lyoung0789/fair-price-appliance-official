@@ -4,9 +4,9 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: "About us",
-  headLine: "Sub Contractor of LG",
+  headLine: "Family Owned Bussiness",
   description:
-    "Based in sunny Orlando Fl.  but services between winter park, kissimmee, and other places around here",
+    "Based in Orlando, Florida, Fairprice Appliance is a family owned repair service for all major home appliances. We have been servicing Central Florida since 2005, with a mission to provide excellent service at an affordable price. Say something about LG contractor, and other types of applainces we service like microwaves, dishwashers, washers, dryers etc... Say named brands like LG, Samsung, KitenAid. To get a quote Call us Now: at whatever number.",
   // buttonLabel: "Get Quote",
   //imgStart switches the svg and the text
   imgStart: true,
@@ -25,7 +25,7 @@ export const homeObjTwo = {
   topLine: "Services",
   headLine: "What we do",
   description:
-    "Based in sunny Orlando Fl.  but services between winter park, kissimmee, and other places around here",
+    "We repair, fridges, washers, dryers, dishwashers, stoves etc. \n\nWe are fully reliable and provide a 30 day warranty on all private calls. We work Orlando, Kissimee, Apopka, other places surronding Orlando. \n\n With our excellent customer service, we will give you the honest and fair price of servicing your appliance.",
   buttonLabel: "Contact Us",
   //imgStart switches the svg and the text
   imgStart: true,

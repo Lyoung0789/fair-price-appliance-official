@@ -26,7 +26,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrap>
-        <FooterLinksContainer>
+        {/* <FooterLinksContainer>
           <FooterLinksWraper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
@@ -55,7 +55,7 @@ function Footer() {
               <FooterLink to="/">test</FooterLink>
             </FooterLinkItems>
           </FooterLinksWraper>
-        </FooterLinksContainer>
+        </FooterLinksContainer> */}
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/">FairpriceAppliance</SocialLogo>

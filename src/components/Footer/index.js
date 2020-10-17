@@ -58,7 +58,7 @@ function Footer() {
         </FooterLinksContainer> */}
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">FairpriceAppliance</SocialLogo>
+            <SocialLogo to="/">Fair Price Appliance</SocialLogo>
             <WebsiteRights>
               FairPriceAppliance © {new Date().getFullYear()} All Rights
               Reserved

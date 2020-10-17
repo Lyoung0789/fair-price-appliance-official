@@ -43,7 +43,7 @@ const Navbar = ({ toggle }) => {
         <Nav>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              FairpriceAppliance
+              Fair Price Appliance
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />

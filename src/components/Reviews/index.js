@@ -1,5 +1,5 @@
 import React from "react";
-import Icon1 from "../../images/svg-1.svg";
+import Icon1 from "../../images/five-star.svg";
 import Icon2 from "../../images/svg-2.svg";
 import Icon3 from "../../images/svg-3.svg";
 import {
@@ -24,12 +24,12 @@ function Reviews() {
             <ReviewsP>This is what happens when you do something bra</ReviewsP>
           </ReviewsCard>
           <ReviewsCard>
-            <ReviewsIcon src={Icon2} />
+            <ReviewsIcon src={Icon1} />
             <ReviewsH2>Title of Review 2</ReviewsH2>
             <ReviewsP>This is what happens when you do something bra</ReviewsP>
           </ReviewsCard>
           <ReviewsCard>
-            <ReviewsIcon src={Icon3} />
+            <ReviewsIcon src={Icon1} />
             <ReviewsH2>Title of Review 3</ReviewsH2>
             <ReviewsP>This is what happens when you do something bra</ReviewsP>
           </ReviewsCard>

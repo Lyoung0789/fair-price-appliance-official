@@ -12,7 +12,7 @@ import {
 } from "./HeroElements";
 
 //find videos from https://www.pexels.com/
-import Video from "../../videos/video.mp4";
+import Video from "../../videos/video-2.mp4";
 // import Pic from "../../images/laundry.jpg";
 import { Button } from "../ButtonElement";
 
@@ -28,8 +28,10 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Appliance Repair</HeroH1>
-        <HeroP>Call for for a quote today!</HeroP>
+        <HeroH1>Fair Price Appliance & A/C Corp.</HeroH1>
+        <HeroP>
+          LG Authorized Service Center<p>Repair most major brands</p>
+        </HeroP>
         <HeroBtnWrapper>
           <Button
             to="contact-us"

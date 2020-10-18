@@ -1,5 +1,9 @@
 import React from "react";
-import Icon1 from "../../images/five-star.svg";
+import WashingMachine from "../../images/washing-machine.svg";
+import Microwave from "../../images/microwave.svg";
+import Stove from "../../images/stove.svg";
+import DishWasher from "../../images/dishwasher.svg";
+import Icon1 from "../../images/svg-1.svg";
 import {
   ServicesContainer,
   ServicesWrapper,
@@ -16,23 +20,23 @@ function index() {
       {/* <ServicesH1>Services</ServicesH1> */}
       <ServicesWrapper>
         <ServicesCard>
-          <ServicesIcon src={Icon1} />
-          <ServicesH2>Title of first review</ServicesH2>
+          <ServicesIcon src={WashingMachine} />
+          <ServicesH2>Washing Machine and Dryer Repair</ServicesH2>
           <ServicesP>More info</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon1} />
-          <ServicesH2>Title of second review</ServicesH2>
+          <ServicesIcon src={Microwave} />
+          <ServicesH2>Microwave Repair</ServicesH2>
           <ServicesP>More info</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon1} />
-          <ServicesH2>Title of third review</ServicesH2>
+          <ServicesIcon src={Stove} />
+          <ServicesH2>Stove and Oven Repair</ServicesH2>
           <ServicesP>More info</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon1} />
-          <ServicesH2>Title of fourth review</ServicesH2>
+          <ServicesIcon src={DishWasher} />
+          <ServicesH2>Dishwasher Repair</ServicesH2>
           <ServicesP>More info</ServicesP>
         </ServicesCard>
       </ServicesWrapper>

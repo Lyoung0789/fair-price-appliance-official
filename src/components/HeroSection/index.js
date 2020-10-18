@@ -30,7 +30,7 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>Fair Price Appliance & A/C Corp.</HeroH1>
         <HeroP>
-          LG Authorized Service Center<p>Repair most major brands</p>
+          LG Authorized Service Center{"\n"}Repair most major brands
         </HeroP>
         <HeroBtnWrapper>
           <Button

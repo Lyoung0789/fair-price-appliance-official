@@ -3,7 +3,7 @@ import WashingMachine from "../../images/washing-machine.svg";
 import Microwave from "../../images/microwave.svg";
 import Stove from "../../images/stove.svg";
 import DishWasher from "../../images/dishwasher.svg";
-import Icon1 from "../../images/svg-1.svg";
+
 import {
   ServicesContainer,
   ServicesWrapper,

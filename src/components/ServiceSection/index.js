@@ -3,11 +3,12 @@ import WashingMachine from "../../images/washing-machine.svg";
 import Microwave from "../../images/microwave.svg";
 import Stove from "../../images/stove.svg";
 import DishWasher from "../../images/dishwasher.svg";
+import Fridge from "../../images/fridge.svg";
 
 import {
   ServicesContainer,
   ServicesWrapper,
-  //   ServicesH1,
+  ServicesH1,
   ServicesCard,
   ServicesIcon,
   ServicesH2,
@@ -17,7 +18,8 @@ import {
 function index() {
   return (
     <ServicesContainer>
-      {/* <ServicesH1>Services</ServicesH1> */}
+      <ServicesH1>Services</ServicesH1>
+
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={WashingMachine} />
@@ -37,6 +39,11 @@ function index() {
         <ServicesCard>
           <ServicesIcon src={DishWasher} />
           <ServicesH2>Dishwasher Repair</ServicesH2>
+          <ServicesP>More info</ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={Fridge} />
+          <ServicesH2>Refrigerator Repair</ServicesH2>
           <ServicesP>More info</ServicesP>
         </ServicesCard>
       </ServicesWrapper>

@@ -1,7 +1,5 @@
 import React from "react";
 import Icon1 from "../../images/five-star.svg";
-// import Icon2 from "../../images/svg-2.svg";
-// import Icon3 from "../../images/svg-3.svg";
 import {
   ReviewsContainer,
   ReviewsH1,

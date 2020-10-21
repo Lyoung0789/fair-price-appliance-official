@@ -45,7 +45,7 @@ export const homeObjThree = {
   topLine: "Contact Us",
   headLine: "Scheduling and Questions",
   description:
-    "Hours of Operation:\n9am - 5pm \nMonday-Saturday\n(407)-555-5555 ",
+    "Hours of Operation:\n9am - 5pm \nMonday-Saturday\n(407)-538-4313",
   buttonLabel: "Get Quote",
   //imgStart switches the svg and the text
   imgStart: false,

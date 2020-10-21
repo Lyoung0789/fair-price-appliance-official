@@ -43,10 +43,10 @@ export const homeObjThree = {
   lightText: false,
   lightTextDesc: false,
   topLine: "Contact Us",
-  headLine: "Scheduling and Questions",
+  headLine: "Call or Message Us",
   description:
     "Hours of Operation:\n9am - 5pm \nMonday-Saturday\n(407)-538-4313",
-  buttonLabel: "Get Quote",
+  buttonLabel: "Send",
   //imgStart switches the svg and the text
   imgStart: false,
   img: require("../../images/phone-call.svg"),

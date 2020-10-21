@@ -12,6 +12,7 @@ import {
 import Reviews from "../components/Reviews";
 import Footer from "../components/Footer";
 import ServiceSection from "../components/ServiceSection";
+import ContactForm from "../components/ContactForm";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +30,8 @@ const Home = () => {
       <InfoSection {...homeObjTwo} />
       <ServiceSection />
       <Reviews />
-      <InfoSection {...homeObjThree} />
+      {/* <InfoSection {...homeObjThree} /> */}
+      <ContactForm {...homeObjThree} />
       <Footer />
     </>
   );

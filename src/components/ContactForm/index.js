@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../ButtonElement";
+
 import {
   InfoContainer,
   InfoWrapper,
@@ -13,7 +13,9 @@ import {
   BtnWrap,
   ImgWrap,
   Img,
+  SubmitButton,
 } from "./ContactFormElements";
+import emailjs from "emailjs-com";
 
 const ContactForm = ({
   lightBg,
@@ -32,6 +34,26 @@ const ContactForm = ({
   dark2,
   services,
 }) => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "gmail",
+        "template_189ioym",
+        e.target,
+        "user_XJmC6tuYtPfUpR99lKCPB"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -42,7 +64,7 @@ const ContactForm = ({
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headLine}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
-                <form style={{ display: "block" }}>
+                <form style={{ display: "block" }} onSubmit={sendEmail}>
                   <div style={{ marginBottom: "15px" }}>
                     <input
                       type="text"
@@ -116,8 +138,8 @@ const ContactForm = ({
 
                   {buttonLabel && (
                     <BtnWrap>
-                      <Button
-                        to="home"
+                      <SubmitButton
+                        type="submit"
                         primary={primary ? 1 : 0}
                         dark={dark ? 1 : 0}
                         dark2={dark2 ? 1 : 0}
@@ -128,7 +150,7 @@ const ContactForm = ({
                         offset={-80}
                       >
                         {buttonLabel}
-                      </Button>
+                      </SubmitButton>
                     </BtnWrap>
                   )}
                 </form>

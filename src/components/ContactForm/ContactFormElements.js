@@ -95,3 +95,25 @@ export const Img = styled.img`
   margin: 0 0 10px 0;
   padding-right: 0;
 `;
+
+export const SubmitButton = styled.button`
+    border-radius: 50px; 
+    background: ${({ primary }) => (primary ? "#da4d62" : "#da4d62")};
+    white-space: nowrap; 
+    padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
+    color: ${({ dark }) => (dark ? "#010606" : "#fff")};
+    font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
+    outline: none; 
+    border: none; 
+    cursor: pointer; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;  
+    transition all 0.2s ease-in-out;
+
+    &:hover{
+        transition all 0.2s ease-in-out;
+        background: ${({ primary }) => (primary ? "#2682b5" : "#2682b5")};
+        color: white;
+    }
+`;

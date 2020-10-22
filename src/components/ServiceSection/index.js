@@ -4,6 +4,7 @@ import Microwave from "../../images/microwave.svg";
 import Stove from "../../images/stove.svg";
 import DishWasher from "../../images/dishwasher.svg";
 import Fridge from "../../images/fridge.svg";
+import Dryer from "../../images/dryer.svg";
 
 import {
   ServicesContainer,
@@ -23,7 +24,12 @@ function index() {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={WashingMachine} />
-          <ServicesH2>Washing Machine and Dryer Repair</ServicesH2>
+          <ServicesH2>Washing Machine Repair</ServicesH2>
+          <ServicesP>More info</ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={Dryer} />
+          <ServicesH2>Dryer Repair</ServicesH2>
           <ServicesP>More info</ServicesP>
         </ServicesCard>
         <ServicesCard>

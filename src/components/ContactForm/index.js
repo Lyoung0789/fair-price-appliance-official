@@ -43,74 +43,77 @@ const ContactForm = ({
                 <Heading lightText={lightText}>{headLine}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <form style={{ display: "block" }}>
-                  <Subtitle darkText={darkText}>
-                    <div style={{ marginBottom: "15px" }}>
-                      <input
-                        type="text"
-                        placeHolder="Name"
-                        name="name"
-                        style={{
-                          border: "transparent",
-                          background: "#f2f3f7",
-                          height: "54px",
-                          fontSize: "16px",
-                          fontWeight: "400",
-                          width: "100%",
-                        }}
-                      />
-                    </div>
-                    <div style={{ marginBottom: "15px" }}>
-                      <input
-                        type="email"
-                        placeHolder="Email"
-                        name="email"
-                        style={{
-                          border: "transparent",
-                          background: "#f2f3f7",
-                          height: "54px",
-                          fontSize: "16px",
-                          fontWeight: "400",
-                          width: "100%",
-                        }}
-                      />
-                    </div>
-                    <div style={{ marginBottom: "15px" }}>
-                      <input
-                        type="text"
-                        placeHolder="Subject"
-                        name="subject"
-                        style={{
-                          border: "transparent",
-                          background: "#f2f3f7",
-                          height: "54px",
-                          fontSize: "16px",
-                          fontWeight: "400",
-                          width: "100%",
-                        }}
-                      />
-                    </div>
-                    <div
+                  <div style={{ marginBottom: "15px" }}>
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      name="name"
                       style={{
-                        marginBottom: "15px",
+                        padding: "10px",
+                        border: "transparent",
+                        background: "#f2f3f7",
+                        height: "54px",
+                        fontSize: "16px",
+                        fontWeight: "400",
+                        width: "90%",
                       }}
-                    >
-                      <textarea
-                        style={{
-                          border: "transparent",
-                          background: "#f2f3f7",
-                          height: "130px",
-                          fontSize: "16px",
-                          fontWeight: "400",
-                          width: "100%",
-                        }}
-                        type="text"
-                        placeholder="Message"
-                        name="message"
-                        cols="30"
-                        rows="7"
-                      />
-                    </div>
-                  </Subtitle>
+                    />
+                  </div>
+                  <div style={{ marginBottom: "15px" }}>
+                    <input
+                      type="email"
+                      placeholder="Email"
+                      name="email"
+                      style={{
+                        padding: "10px",
+                        border: "transparent",
+                        background: "#f2f3f7",
+                        height: "54px",
+                        fontSize: "16px",
+                        fontWeight: "400",
+                        width: "90%",
+                      }}
+                    />
+                  </div>
+                  <div style={{ marginBottom: "15px" }}>
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      name="subject"
+                      style={{
+                        padding: "10px",
+                        border: "transparent",
+                        background: "#f2f3f7",
+                        height: "54px",
+                        fontSize: "16px",
+                        fontWeight: "400",
+                        width: "90%",
+                      }}
+                    />
+                  </div>
+                  <div
+                    style={{
+                      marginBottom: "15px",
+                    }}
+                  >
+                    <textarea
+                      style={{
+                        padding: "10px",
+                        border: "transparent",
+                        background: "#f2f3f7",
+                        height: "130px",
+                        fontSize: "16px",
+                        fontWeight: "400",
+                        width: "90%",
+                      }}
+                      type="text"
+                      placeholder="Message"
+                      name="message"
+                      cols="30"
+                      rows="7"
+                    />
+                  </div>
+
                   {buttonLabel && (
                     <BtnWrap>
                       <Button

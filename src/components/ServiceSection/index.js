@@ -1,4 +1,5 @@
 import React from "react";
+// Icons from svgrepo.com/vectors
 import WashingMachine from "../../images/washing-machine.svg";
 import Microwave from "../../images/microwave.svg";
 import Stove from "../../images/stove.svg";

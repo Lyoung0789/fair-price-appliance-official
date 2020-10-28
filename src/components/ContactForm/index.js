@@ -1,9 +1,9 @@
 import React from "react";
 
 import {
-  InfoContainer,
-  InfoWrapper,
-  InfoRow,
+  ContactContainer,
+  ContactWrapper,
+  ContactRow,
   Column1,
   Column2,
   TextWrapper,
@@ -56,9 +56,9 @@ const ContactForm = ({
   };
   return (
     <>
-      <InfoContainer lightBg={lightBg} id={id}>
-        <InfoWrapper>
-          <InfoRow imgStart={imgStart}>
+      <ContactContainer lightBg={lightBg} id={id}>
+        <ContactWrapper>
+          <ContactRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
@@ -161,9 +161,9 @@ const ContactForm = ({
                 <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
-          </InfoRow>
-        </InfoWrapper>
-      </InfoContainer>
+          </ContactRow>
+        </ContactWrapper>
+      </ContactContainer>
     </>
   );
 };

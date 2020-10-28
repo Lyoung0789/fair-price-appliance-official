@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const InfoContainer = styled.div`
+export const ContactContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#eefbfb" : "#4DA8DA")};
   @media screen and (max-width: 768px) {
@@ -8,7 +8,7 @@ export const InfoContainer = styled.div`
   }
 `;
 
-export const InfoWrapper = styled.div`
+export const ContactWrapper = styled.div`
   display: grid;
   z-index: 1;
   height: 880px;
@@ -20,7 +20,7 @@ export const InfoWrapper = styled.div`
   justify-content: center;
 `;
 
-export const InfoRow = styled.div`
+export const ContactRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;

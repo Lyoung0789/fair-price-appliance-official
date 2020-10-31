@@ -1,3 +1,5 @@
+This will be the official website of Fair Price Appliance .
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
